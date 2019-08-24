@@ -18,3 +18,7 @@ cat result.txt | node visualize.js | dot -T png > out.png
 
 This will create `out.png`, which shows the dependency graph of all contained modules.
 Hint: "B -> A" means that it's recommended to take module A before taking module B.
+
+## Examples
+
+![Module dependencies 2018](./example2018.png)
